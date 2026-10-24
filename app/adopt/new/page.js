@@ -29,6 +29,10 @@ export default function NewPet() {
   }
 
   async function submit() {
+    if (!user) {
+  setMsg("Please log in first.");
+  return;
+}
     if (!f.name.trim() || !f.location.trim() || !f.contact.trim()) {
       setMsg("Please fill in the pet name, location and your contact.");
       return;
