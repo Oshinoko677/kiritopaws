@@ -18,6 +18,7 @@ export default function ContactOwner({ petId }) {
       .single();
     if (error) return setMsg(error.message);
     setContact(data.contact);
+    
   }
 
   return (
