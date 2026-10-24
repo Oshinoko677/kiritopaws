@@ -1,6 +1,6 @@
 export const products = [
   { id: 1, name: "Premium Dog Food 2kg", price: 2499, oldPrice: 3200, category: "Dogs", rating: 4.5, sold: 120 },
-  { id: 2, name: "Cat Scratching Post", price: 3450, oldPrice: 4500, category: "Cats", rating: 4.2, sold: 64 },
+  { id: 2, name: "Cat Scratching Pole", price: 450, oldPrice: 1200, category: "Cats", rating: 4.2, sold: 64 },
   { id: 3, name: "Stainless Steel Pet Bowl", price: 999, oldPrice: 1400, category: "Accessories", rating: 4.7, sold: 310 },
   { id: 4, name: "Rubber Chew Toy", price: 650, oldPrice: 900, category: "Dogs", rating: 4.4, sold: 205 },
   { id: 5, name: "Cat Litter 5kg", price: 1299, oldPrice: 1700, category: "Cats", rating: 4.6, sold: 98 },
